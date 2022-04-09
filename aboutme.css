@@ -1,9 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
-
-* {
-    font-family: 'Montserrat';
-} */
-
 @font-face {
   font-family: NanumSquare;
   src: url(NanumSquareR.eot) format('embedded-opentype'),
@@ -78,60 +72,50 @@ h1 {
   height: 100vh;
 }
 
-.introduce {
+.title-text {
+    font-size:20px;
+    font-weight: bold;
+    color: #282828;
+    float: left;  
+}
+
+.year-text{
+    font-size:20px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+    margin-right: 30px;
+}
+
+.float-wrap {
+    overflow: hidden;
+    margin-bottom:10px; 
+}
+
+.image{
+  width: 260px;
+  height:90px;
+}
+
+
+.desc-text {
+  font-size: 15px;
+  margin-top:20px; 
+}
+
+.aboutme{
   margin-top: 30px;
+}
+
+.activities{
+  margin-top: 100px;
   margin: 5% 5% 5% 5%;
 }
 
-.intro-wrapper{
-  display: flex;
-  width: 30%;
-}
-
-.intro-icon{
-  font-size: 30px;
-  margin-right: 20px;
-}
-
-.text-wrapper{
-  float: left;
-}
-
-.intro-context{
-  display: flex;
-  flex-wrap: wrap;
-}
-.interests {
-  margin-top: 30px;
+.education {
   margin: 5% 5% 5% 5%;
 }
 
-.badge1 {
-  width: 80px;
-  height: 30px;
-}
-
-.badge2 {
-  width: 70px;
-  height: 30px;
-}
-
-.badge3 {
-  width: 120px;
-  height: 30px;
-}
-
-.badge4 {
-  width: 90px;
-  height: 30px;
-}
-
-.badge5 {
-  width: 80px;
-  height: 30px;
-}
-
-.badge6 {
-  width: 150px;
-  height:30px;
+.text{
+  margin-top: 20px;
 }
